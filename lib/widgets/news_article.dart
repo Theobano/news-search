@@ -8,10 +8,6 @@ class NewsArticleWidget extends StatelessWidget {
   final Article article;
   const NewsArticleWidget({Key? key, required this.article}) : super(key: key);
 
-  void _launchUrl(Uri _url) async {
-    if (!await launchUrl(_url)) throw 'Could not launch $_url';
-  }
-
   @override
   Widget build(BuildContext context) {
     Article article = this.article;

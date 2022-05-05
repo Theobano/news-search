@@ -43,7 +43,7 @@ class SearchResultFlowState extends State<SearchResultFlow> {
       child: Scaffold(
           appBar: AppBar(
             leading: IconButton(
-              icon: Icon(
+              icon: const Icon(
                 Icons.arrow_back_ios,
               ),
               onPressed: Navigator.of(context).pop,

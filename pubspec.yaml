@@ -33,6 +33,7 @@ dependencies:
   transparent_image: ^2.0.0
   url_launcher: ^6.1.0
   share_plus: ^4.0.4
+  flutter_dotenv: ^5.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -99,3 +100,5 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
 
+  assets:
+    - .env

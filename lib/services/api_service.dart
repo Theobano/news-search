@@ -22,8 +22,10 @@ class NewsSearchApiService {
         return SearchResult.fromJson(responseJson);
       }
     } catch (e) {
+      // ignore: avoid_print
       print(e.toString());
       return null;
     }
+    return null;
   }
 }

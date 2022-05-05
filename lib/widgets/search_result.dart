@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:news_search/models/article.dart';
-import 'package:news_search/models/search_arguments.dart';
 import 'package:news_search/models/searchresult.dart';
-import 'package:news_search/pages/search_result_page.dart';
 import 'package:news_search/services/api_service.dart';
 import 'package:news_search/widgets/news_article.dart';
-import 'package:transparent_image/transparent_image.dart';
 
 class SearchResultWidget extends StatefulWidget {
   final NewsSearchApiService newsSearchApi;
